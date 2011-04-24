@@ -9,6 +9,7 @@ module OrmAdapter
     # @see orm_adapters/active_record
     # @see orm_adapters/datamapper
     # @see orm_adapters/mongoid
+    # @see orm_adapters/mongo_mapper
     def self.inherited(adapter)
       OrmAdapter.adapters << adapter
       super
